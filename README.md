@@ -60,11 +60,6 @@ yarn e2e:build
 yarn e2e:test
 ```
 
-## Test credentials used by default
-
-- Email: REDACTED_EMAIL
-- Password: REDACTED_PASSWORD
-
 ## Notes on maintainability
 
 - Page-object model keeps selectors and flow readable.
