@@ -13,7 +13,13 @@ module.exports = {
       'ts-jest',
       {
         tsconfig: '<rootDir>/tsconfig.json',
+        isolatedModules: true,
       },
     ],
+  },
+  globals: {
+    'ts-jest': {
+      isolatedModules: true,
+    },
   },
 };

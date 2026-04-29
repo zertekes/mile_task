@@ -11,16 +11,14 @@ module.exports = {
   apps: {
     'ios.debug': {
       type: 'ios.app',
-      binaryPath: 'ios/build/Build/Products/Debug-iphonesimulator/Mile.app',
-      build:
-        'xcodebuild -workspace ios/Mile.xcworkspace -scheme Mile -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build',
+      binaryPath: '/Users/zoltanertekes/Desktop/Workspace/Mile_App/Mile.app',
     },
   },
   devices: {
     simulator: {
       type: 'ios.simulator',
       device: {
-        type: 'iPhone 15',
+        type: 'iPhone 17 Pro',
       },
     },
   },
